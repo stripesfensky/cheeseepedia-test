@@ -1,0 +1,14 @@
+baseURL = 'https://hugo.plushypuppy.club/'
+languageCode = 'en-us'
+title = '[TESTING] Cheese-E-Pedia'
+
+theme = 'cheeseepedia'
+
+[[module.mounts]]
+source = 'cheeseepedia/content'
+target = 'content'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
