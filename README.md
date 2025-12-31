@@ -1,2 +1,2 @@
 # cheeseepedia-test
-Test to create subdomain theme template for Cheese-E-Pedia
+Prototype to create theme-based subdomains for The64thGamer/cheeseepedia
