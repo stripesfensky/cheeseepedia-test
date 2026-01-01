@@ -8,7 +8,14 @@ theme = 'cheeseepedia'
 source = 'cheeseepedia/content'
 target = 'content'
 
+[[module.mounts]]
+source = 'cheeseepedia/layouts'
+target = 'layouts'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[security]
+  enableInlineShortcodes = true
